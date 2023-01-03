@@ -31,9 +31,7 @@ export function MovieDetails() {
     <div className="details-container">
       <img src={imgUrl} alt={movie.title} className="movie-img columns" />
       <div className="movie-details columns">
-        <p className="title">
-          {movie.title}
-        </p>
+        <p className="title">{movie.title}</p>
         <p>
           <strong>Géneros: </strong>
           {allGenres}
