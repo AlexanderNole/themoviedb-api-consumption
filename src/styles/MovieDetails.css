@@ -1,0 +1,25 @@
+.details-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.columns{
+  max-width: 400px;
+  margin: 15px;
+  height: auto;
+  width: 80%;
+}
+
+.movie-img{
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.title{
+  margin-top: 0;
+}
+
+.movie-details{
+  font-size: 1.5rem;
+}
